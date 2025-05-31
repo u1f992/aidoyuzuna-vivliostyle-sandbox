@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url("base.css");
+
+@page {
+  background-color: #333;
+
+  @bottom-center {
+    color: #fff;
+  }
+}
+
+h1 {
+  color: #fff;
+  font-size: 30Q;
+  line-height: 44Q;
+  margin-block-start: 60%;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 18Q;
+  text-align: center;
+}

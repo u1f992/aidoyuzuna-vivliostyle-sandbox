@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url("base.css");
+
+.ballon-div {
+  margin-bottom: 3mm;
+}
+
+.balloon-chat {
+  display: flex;
+  align-items: center;
+}
+
+.balloon-chat--left {
+  justify-content: left;
+}
+
+.balloon-chat--right {
+  justify-content: right;
+}
+
+/* アイコン画像の作成 */
+.icon-img {
+  width: 1.5cm;
+  padding: 1mm;
+  border-radius: 50%;
+  border: solid 0.5mm #ccc;
+}
+
+.ballon--figture__margin {
+  margin: 0;
+}
+
+.icon-name {
+  font-size: 10Q;
+}
+
+/* 吹き出しの入力部分の作成 */
+.chat-text {
+  margin: 0 3mm 5mm;
+  padding: 4mm;
+  max-width: 77mm;
+  text-indent: 0;
+  border-radius: 12px;
+  background: #ddd;
+}
+
+.chat-text--left,
+.chat-text--right {
+  text-align: left;
+}
+
+.page__enter {
+  break-before: page;
+}
+
+.colophon {
+  margin-top: 120mm;
+  border: solid 0.3mm #000;
+  padding: 5mm;
+}
