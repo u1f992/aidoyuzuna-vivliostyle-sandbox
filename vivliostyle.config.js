@@ -5,8 +5,8 @@ module.exports = {
   size: "A5",
   // theme: "css/content-style.css",
   entry: [
-    "docs/section/sc-chapter1.md",
-    "docs/content/chapter1.md",
+    {path:"docs/section/sc-chapter1.md", theme: "./css/section-title"},
+    {path:"docs/content/chapter1.md", theme: "./css/content-style"},
   ],
   output: ["output.pdf"]
 };

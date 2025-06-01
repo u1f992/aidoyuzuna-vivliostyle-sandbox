@@ -1,9 +1,3 @@
----
-link:
-  - rel: "stylesheet"
-    href: "../../css/content-style.css"
----
-
 ## かえるくんの困りごと{#h2_1}
 
 <div class="ballon-div">

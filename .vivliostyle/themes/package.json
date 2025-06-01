@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@vivliostyle/theme-base": "^2.0.0"
+    "content-style": "file:../../css/content-style",
+    "section-title": "file:../../css/section-title"
   }
 }
